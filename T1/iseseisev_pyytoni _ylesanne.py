@@ -39,10 +39,10 @@ with open(dst, "w", encoding="utf-8") as q: # loome kirjutamisõigusega faili an
        
 with open(src, "r", encoding="utf-8") as r: # avame faili anmded.txt lugemisõigusega
     contents = csv.reader(r, delimiter=";") # ja loeme faili sisu muutujasse
-    for row in contents: # totsin välja vajaliku rea
+    for row in contents: # otsin välja vajaliku rea
         if row and row[0].startswith("Arvud:"): # kui rida pole tühi ja algab sõnaga Arvud:
-            numbers_str = row[0].replace("Arvud: ", "").strip("[]") # eemaldame sõna Arvud: ja nurksulgude
-            genereeritud_numbrid = [int(num) for num in numbers_str.split(", ")] # teisendame stringi listiks täisarvudest
+            numbers_str = row[0].replace("Arvud: ", "").strip("[]") # eemaldan sõna Arvud: ja nurksulud
+            genereeritud_numbrid = [int(num) for num in numbers_str.split(", ")] # teisendan stringi listiks täisarvudest
 
 def calculate_stats(numbers): # siia panin kirja funktsiooni, mis arvutab summa, keskmise ja suurima arvu
     total = sum(numbers) # summa
