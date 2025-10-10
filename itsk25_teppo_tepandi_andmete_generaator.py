@@ -18,4 +18,4 @@ if 3 <= suurus <= 10: # vahenmiku tingimus.
         writer = csv.writer(f, delimiter=" ") # kasutan tühikut eraldajana
         writer.writerows(maatriks) # kirjutan maatriksi faili
 else:
-    print("Palun sisesta number vahemikus 3 kuni 10.") # Ma ei saa päriselt aru :D et kas veateadet ikka oli vaja?  
+    print("arv ei sobi, palun sisesta number vahemikus 3 kuni 10.") # Ma ei saa päriselt aru :D et kas veateadet ikka oli vaja?  
