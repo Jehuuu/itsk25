@@ -1,0 +1,10 @@
+;0
+Tepo;0
+Peets;0
+Teppo;6
+Teppo;3
+Teppo;1
+Terppo;1
+Teppo;3
+Teppo;7
+Peetrus;8

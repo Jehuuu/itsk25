@@ -1,0 +1,8 @@
+txt
+jpg
+doc
+bat
+tif
+pdf
+xls
+xlsx
