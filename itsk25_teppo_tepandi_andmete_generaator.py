@@ -7,7 +7,7 @@ Ekraanipilt 1 Numbrid failis 5x5
 import random
 import csv
 
-dst = "output.txt" # siia salvetsan genereeritud numbrid 
+dst = "output.txt" # siia salvestan genereeritud numbrid 
 
 def loo_maatriks(suurus): # see funktsioon genereerib suvalised numbrid vahemikus 01-99 vastavalt dailoogaknas küsitud arvule.
       return [[f"{random.randint(1, 99):02}" for _ in range(suurus)] for _ in range(suurus)] 
